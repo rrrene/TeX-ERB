@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>tex.erb</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>/\*\*|\{\s*$</string>
+	<key>foldingStopMarker</key>
+	<string>\*\*/|^\s*\}</string>
+	<key>name</key>
+	<string>TeX ERB</string>
+	<key>patterns</key>
+	<array>
+
+    <dict>
+      <key>captures</key>
+      <dict>
+        <key>1</key>
+        <dict>
+          <key>name</key>
+          <string>punctuation.definition.comment.tex</string>
+        </dict>
+      </dict>
+      <key>match</key>
+      <string><![CDATA[(<%).+?%>]]></string>
+      <key>name</key>
+      <string>comment.line.percentage.tex.erb</string>
+    </dict>
+
+	</array>
+	<key>scopeName</key>
+	<string>text.tex</string>
+	<key>uuid</key>
+	<string>6BC8DE6F-9360-4C7E-AC3C-971385945346</string>
+</dict>
+</plist>
